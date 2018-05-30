@@ -1,3 +1,5 @@
+Loops Beatles
+
 var muscians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
 var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
 var Beatles = []
@@ -23,57 +25,14 @@ while (i < facts.length){
 
   return adding
 }
-//Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 :
-//Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' once when passed the parameter 17:
-var array = []
+// Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 :
+// Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' once when passed the parameter 17:
+
 function iLoveTheBeatles(number){
+  let array = []
   var i = 0
   do {
-    if (i===7){
-      array.push(array)
-      // array.push('I love the Beatles!')
-      return array
-      i++
-    }
-    else if (i>15) {
-      array.length = 0
-      array.push('I love the Beatles!')
-      return array
-      i++
-    } else if (i<15){
-      array.push('I love the Beatles!')
-      i++
-    }
 
-  } while (i<number);
+  }while (number<15)
+return array
 }
-
-
-
-// var array = []
-// function iLoveTheBeatles(number){
-//   array = []
-//   var i = 0
-//   do {
-//     if (i === 7){
-//       array.push('I love the Beatles!')
-//       array.push(array)
-//       i++
-//       return array
-//     } else if (i === 18) {
-//       // array.push('I love the Beatles!')
-//       array.push('I love the Beatles!')
-//       i++
-//     }
-//
-//     else if (i < 15) {
-//       // array.push(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"])
-//       // array.push('I love the Beatles!')
-//       i++
-//     } else {
-//        i++
-//     }
-//
-//   }while (i <= number)
-// return array
-// }
