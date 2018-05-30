@@ -30,7 +30,6 @@ while (i < facts.length){
 
 function iLoveTheBeatles(number){
   let array = []
-  var i = 0
   do {
     array.push('I love the Beatles!')
     number++
